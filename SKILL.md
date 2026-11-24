@@ -6,6 +6,11 @@ name: tt-timeline
 description: "TikTok公开数据时间线（只读）：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "TikTok成长时间线｜发文节奏·历史作品·互动变化"
+display_name_en: "TikTok Timeline"
+description_zh: "TikTok公开数据时间线接口（只读）：作品详情、视频评论、博主作品、关键词搜视频，按发布时间排布并回溯历史，复盘海外账号发文节奏、互动变化与话题升温过程"
+description_en: "Read-only TikTok timeline data source, no account login, no ban risk. One command returns a creator's public posting history as structured JSON arranged by publish time, so AI can reconstruct the account timeline and review cadence. Capabilities: 1) Keyword video search sorted by relevance or most liked, inside 1/7/30/90/180-day windows. 2) Creator post listing sorted by newest or hottest, keeping original publish times for backtracking. 3) Comment scraping for sentiment review and user demand mining. 4) Recipes: map posting rhythm, compare metrics before vs after a topic heats up, trace viral videos. Scale: pay-as-you-go up to 10,000 items per call; monthly plans cap search at 30, posts at 30, comments at 40, then PLAN_LIMIT. Zero dependencies, Node.js 16.14+, GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎵"
